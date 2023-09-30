@@ -13,3 +13,13 @@ This is my personal portfolio website showcasing my projects and skills.
 - HTML
 - CSS
 - JavaScript
+
+## Google Sheets Database
+
+This portfolio website uses Google Sheets as a backend database for storing and managing project data.
+
+## Live Project
+
+You can access the live version of this project by following this link:
+
+https://likithanaik.github.io/CodeClauseInternship_PortfolioWebsite/
