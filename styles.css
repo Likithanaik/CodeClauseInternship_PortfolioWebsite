@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+   
+   width: 100%;
+}
+
+.Desktop1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.Rectangle11 {
+    flex: 1;
+    width: 1440px;
+    height: 1348px;
+    left: 0px;
+    top: 2000px;
+    position: absolute;
+    box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.NavBarLinks {
+    z-index: 1000;
+    /* Set a high z-index value */
+}
+
+.Hero {
+    width: 1440px;
+    height: 860px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    /* Hide overflowing content from slides */
+}
+
+
+
+
+
+.Rectangle1 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Group1 {
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.caption {
+    width: 700px;
+    height: 84px;
+    left: 30px;
+    top: 90px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 96px;
+    font-family:cursive;
+    font-weight: 400;
+    text-shadow: 2in;
+    line-height: 25.60px;
+    word-wrap: break-word;
+}
+.caption1{
+    left:150px;
+    display: inline;
+    top: 170px;
+    position: absolute;
+    color: white;
+    font-size: 46px;
+    font-family: cursive;
+    font-weight: 400
+    
+}
+
+.btn {
+    width: 190px;
+    height: 55px;
+    left: 286px;
+    font-size: 18px;
+    top: 287px;
+    position: absolute;
+    background: #f57953;
+    border-radius: 1000px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+
+
+}
+
+.btn:hover {
+    background-color: #ca935b;
+    transform: translateY(5px);
+}
+
+.heading {
+    left:100px;
+    display: inline;
+    top: 0px;
+    position: absolute;
+    color: white;
+    font-size: 26px;
+    font-family: Oleo Script Swash Caps;
+    font-weight: 400
+}
+
+
+
+/* // css of menu page  */
+
+
+.Frame2 {
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: rgb(0, 0, 0);
+}
+
+
+
+/* Style for the navigation bar */
+.NavBarLinks {
+    width: 1440px;
+    height: 120px;
+    left: 10px;
+    top: 0px;
+    position: absolute;
+    background: rgba(7.64, 7.54, 7.54, 0);
+}
+
+/* Style for the logo */
+.Logo {
+    width: 70px;
+    height: 54px;
+    margin: 33px 0 0 120px;
+}
+
+/* Style for the navigation links */
+.NavLinks {
+    position: absolute;
+    left: 600px;
+    top: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.NavLinks a {
+    font-size: 30px;
+    /* font size */
+}
+.NavLinks a:hover {
+    font-size: 32px;
+    transition: 0.3s ease;
+    color: #816d69;
+    /* font size */
+}
+/* Style for individual navigation links */
+.Ellipse{
+   
+    cursor: pointer;
+}
+.Ellipse2:hover {
+    color: #ca935b;
+    transform: translateY(10px);
+}
+.Link {
+    color: white;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-decoration: none;
+    color: #f57953;
+    word-wrap: break-word;
+}
+.Service-Section {
+    display: flex;
+    align-items: center;
+    /* Set appropriate widths, heights, margins, and padding here */
+  }
+
+ 
+/* Add styles for the popup */
+/* Style for the popup container */
+/* Style for the larger popup container */
+
+
+    /* Apply the animation to the "rotate" class */
+    .rotate {
+        animation: spin 10s linear infinite; /* Adjust the duration (10s) as needed */
+    }
+
+    .Rectangleservice{
+        transition: box-shadow 0.3s ease;
+        
+    } 
+    .Rectangleservice:hover{
+        box-shadow:  0 0 50px rgba(255, 255, 255, 0.5);
+    background-color:#904637 ;
+    } 
+    .profile{
+       
+        transition: box-shadow 0.3s ease;
+    }
+    .profile:hover{
+        box-shadow:  0 0 100px rgba(255, 255, 255, 0.5);
+    }
+    #about{
+        padding: 50px 0;
+        color: #ababab;
+    }
+    .row{
+        display: flex;
+    }
+    .col1{
+        flex-basis: 60%;
+padding: 0 50px 10px 30px;
+margin: 20px;
+
+
+    }
+    .col2 img{
+        float: right;
+        width: 450px;
+        height: 600px;
+
+        margin-right: 50px;
+
+    }
+    .col2{
+        flex-basis: 35%;
+       
+        
+    }
+    .subtitle{
+font-size: 60px;
+font-weight: 600;
+color:#f57953;
+text-align: center;
+    }
+    .tabtitle{
+        display: flex;
+        margin: 20px 0 40px;
+    }
+    .tablink{
+        margin-right: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        position: relative;
+    }
+    .tablink::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #f57953;
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        transition: .5s;
+    }
+    .tablink.activelink::after{
+        width: 50%;
+    }
+    .tabcontent ul li{
+list-style: none;
+margin: 20px 0;
+    }
+    .tabcontent ul li span{
+        color: #f57953;
+        font-size: 14px;
+    }
+    .tabcontent{
+        display: none;
+    }
+    .tabcontent.acttab{
+        display: block;
+    }
+    .ab{
+       
+        transition: box-shadow 0.3s ease;
+    }
+    .ab:hover{
+        box-shadow:  0 0 100px rgba(255, 255, 255, 0.5);
+    }
+    .square{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #f5efee;
+    }
+    .sq1{
+        transition: transform 0.5s;
+    }
+   .sq1:hover{
+    transform: scale(1.1);
+   }
+   .sq2{
+    transition: transform 0.5s;
+}
+.sq2:hover{
+transform: scale(1.1);
+}
+.sq3{
+    transition: transform 0.5s;
+}
+.sq3:hover{
+transform: scale(1.1);
+}
+.count{
+    width:100%;
+    height: 100%;
+    top:550px;
+    
+}
